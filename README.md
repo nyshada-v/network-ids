@@ -34,30 +34,9 @@ The system uses both unsupervised and supervised machine learning techniques to 
 
 ## System Architecture
 
-```text
-Network Traffic
-       │
-       ▼
- Packet Capture (Scapy)
-       │
-       ▼
- Feature Extraction
-       │
-       ▼
- ┌─────────────────────┐
- │ Hybrid ML Engine    │
- ├─────────────────────┤
- │ Isolation Forest    │
- │ Autoencoder         │
- │ XGBoost             │
- └─────────────────────┘
-       │
-       ▼
- Threat Detection
-       │
-       ▼
- Real-Time Dashboard
-```
+## System Architecture
+
+![NIDS Architecture](assets/architecture.png)
 
 ---
 
