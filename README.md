@@ -33,11 +33,9 @@ The system uses both unsupervised and supervised machine learning techniques to 
 ---
 
 ## System Architecture
-
-## System Architecture
-
-![NIDS Architecture](assets/architecture.png)
-
+<p align="center">
+  <img src="assets/architecture.png" alt="NIDS Architecture" width="700"/>
+</p>
 ---
 
 ## Machine Learning Models
